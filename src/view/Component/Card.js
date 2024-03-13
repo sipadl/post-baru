@@ -10,12 +10,12 @@ export class Card extends Component {
     render() {
         const config = this.props.config;
         return (
-        <div class={`col-sm-${config.size}`}>
-          <div class="card">
-            <div class={`card-body ${config.color}`}>
-              <h5 class="card-title">{config.title}</h5>
-              <p class="card-text">{config.title}</p>
-              <a href={config.routes} class="btn btn-primary w-100">Go</a>
+        <div className={`col-sm-${config.size}`}>
+          <div className="card">
+            <div className={`card-body ${config.color}`}>
+              <h5 className="card-title">{config.title}</h5>
+              <p className="card-text">{config.title}</p>
+              <a href={config.routes} className="btn btn-primary w-100">Go</a>
             </div>
           </div>
         </div>

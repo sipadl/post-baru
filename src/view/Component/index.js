@@ -1,4 +1,11 @@
 import CardComponent from "./Card";
+import FormComponent from "./Form";
+import TitleComponent from "./Title";
+import NavbarComponent from "./Navbar";
+
 export {
-    CardComponent
+    CardComponent,
+    FormComponent,
+    TitleComponent,
+    NavbarComponent
 }
